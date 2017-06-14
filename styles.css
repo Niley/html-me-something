@@ -1,7 +1,139 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ____====""""END NORMALISATION""""====____*/
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: cornsilk;
+}
+
 img{
     height: 20em;
-    border: 0;
+    border-style: solid;
+    border-width: .1em;
+    border-radius: .3em;
+    border-color: cornsilk;
+    display: block;
+    margin: 0 auto;
 }
+
+section{
+    margin: 2em 10em 2em 10em;
+    border-style: solid;
+}
+
 ul{
     list-style-type:none;
+}
+
+p{
+    margin: 2em 0em 2em 0em;
+}
+
+h1{
+    font-family: 'Cormorant', serif;
+    font-size: 4em;
+    margin-bottom: .50em;
+}
+
+h2{
+    font-family: 'Cormorant', serif;
+    font-size: 2em;
+    margin-bottom: .30em;
+    text-align: center;
+}
+
+em{
+    font-style: oblique;
+}
+
+a{
+    color: forestgreen;
+    text-decoration:none;
+    
+}
+
+/*====Classes====*/
+
+.nav_header{
+    margin: 4em 0em 0em 4em;
+}
+
+.sec_sanse{
+    border-style: solid;
+    border-width: .1em;
+    border-radius: .3em;
+    padding: 2em;
+}
+
+
+.logo_footer{
+    height: 3em;
+    float: left;
+}
+
+.img_leo{
+    height: 5em;
+    margin-bottom: 1em;
+}
+
+.img_footer{
+    width: 12em;
+    height: 16em;
+    float:right;
+    
+}
+
+.footer_bio{
+    width: 40em;
+}
+
+.footer_logo{
+    float: right;
 }

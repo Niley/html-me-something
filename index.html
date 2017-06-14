@@ -4,17 +4,17 @@
     <head>
         <title>HTML'd you something!</title>
         <link rel="stylesheet" type="text/css" href="styles.css">
+        <link href=' http://fonts.googleapis.com/css?family=Cormorant' rel='stylesheet' type='text/css'>
+        <link href=' http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
     </head>
     <body>
         <header>
             <section>
                 <h1>Our houseplants</h1>            
                 <p>
-                    Due to the fact that we don't have any pets yet, my wife and I have replaced caring for a pet with caring for and obsessing over houseplants. Most of these plants, we have found at estate sales or discounted in stores. Others have been gifted to us as little sprouts.
+                    Due to the fact that we don't have any pets yet, my wife and I have replaced caring for a pet with caring for and obsessing over houseplants. Most of these plants, we have found at estate sales or discounted in stores. Others have been gifted to us as little sprouts. Navigate to different plants below.
                 </p>
-            </section>
-            <section>
-                <ul>
+                <ul class="nav_header">
                     <li><a href="#sansevieria">Sansevierias</a></li>
                     <li><a href="#spider">Spider plants</a></li>
                     <li><a href="#cactus">Cactuses</a></li>
@@ -23,21 +23,15 @@
         </header>
         <article>
             <main>
-                <section>
+                <section class="sec_sanse">
                     <h2 id="sansevieria">Sansevierias</h2>
                     <p>
-                        It all started with my crusade for cleaner indoor air. We got  this beauty from a rummage sale at a local church. It's a Sansevieria, also known as mother-in-law's tongue or snake plant. They are <a href="https://dengarden.com/interior-design/sansevieria-snake-plant-allergy" target="_blank" class="link_inline">supposedly quite good at air filtration</a>.
-                    </p>
-                    <a href="img/sanse.png" target="_blank">
-                        <img src="img/sanse.png" alt="Sansevieria mommy">
-                    </a>
-                    <p>
-                        From that, I split the plant to a couple other pots and propagated some babies from one of the leaves. Just look at them; <em>aren't they majestic?</em>
+                        It all started with my crusade for cleaner indoor air. We got  this beauty from a rummage sale at a local church. It's a Sansevieria, also known as mother-in-law's tongue or snake plant. They are <a href="https://dengarden.com/interior-design/sansevieria-snake-plant-allergy" target="_blank" class="link_inline">supposedly quite good at air filtration</a>.<br> From that original plant, I split the plant to a couple other pots and propagated some babies from one of the leaves. Just look at them; <em>aren't they majestic?</em>
                     </p>
                     <a href="img/sanse_babies.png" target="_blank">
                         <img src="img/sanse_babies.png" alt="Sansevieria proud mommy with babies">
                     </a>
-                    <ul>
+                    <ul class="link_list">
                         <li>
                             <a href="https://en.wikipedia.org/wiki/Sansevieria" target="_blank">Sansevieria wiki</a>
                         </li>
@@ -49,7 +43,7 @@
                         </li>
                     </ul>
                 </section>
-                <section>
+                <section class="sec_spider">
                     <h2 id="spider">Spider plants</h2>
                     <p>
                         Just like snake plants, Spider plants are known for their air filtrating capabilities. In fact, according to a <a href="https://www.lovethegarden.com/community/fun-facts/nasa-guide-air-filtering-houseplants" class="link_inline" target="_blank">study conducted by NASA</a>, these plants filter formaldehyde and xylene out of the air for us. Note how the Sansevieria's also in the list of awesome plants for air quality.
@@ -72,17 +66,14 @@
                         </li>
                     </ul>
                 </section>
-                <section>
+                <section class="sec_cactus">
                     <h2 id="cactus">Cactuses</h2>
                     <p>
-                        Recently we picked up one cactus at an estate sale. We removed all the lumps attached to it, and planted all of them. We got over 20 mini-cactuses out of it. Here's to hoping they survive.<a href="https://media3.giphy.com/media/QMkPpxPDYY0fu/giphy.gif" target="_blank" class="link_inline"><img src="https://media3.giphy.com/media/QMkPpxPDYY0fu/giphy.gif" alt="Leo Dicaprio cheers" class="img_inline"></a> 
+                        Recently we picked up one cactus at an estate sale. We removed all the lumps attached to it, and planted all of them. We got over 20 mini-cactuses out of it. Here's to hoping they survive:                        <img src="https://media3.giphy.com/media/QMkPpxPDYY0fu/giphy.gif" alt="Leo Dicaprio cheers" class="img_leo">                        Because it is hard to identify a cactus, we did some research and still didn't know what exact species they are. We kept it at <em>some type of barrel cactus</em>. Judge for yourself:
                     </p>
                     <a href="img/cactus_with_babies.png" target="_blank">
                         <img src="img/cactus_with_babies.png" alt="Cactus with babies">
                     </a>
-                    <p>
-                        Because it is hard to identify a cactus, we did some research and still didn't know what exact species they are. We kept it at <em>some type of barrel cactus</em>.
-                    </p>
                     <ul>
                         <li>
                             <a href="https://en.wikipedia.org/wiki/Barrel_cactus" target="_blank">Barrel cactus wiki</a>
@@ -106,13 +97,13 @@
                         <li><a href="#cactus">Cactuses</a></li>
                     </ul>
             </section>
-            <section>
+            <section class="footer_bio">
                 <p>
                     <img src="img/niels.png" alt="photograph Niels Dhollander-Barclay" class="img_footer">
                     Niels Dhollander-Barclay is a developer located in Portland, Oregon. Niels is currently enrolled in Launchcode's LC101 program. For more information on the different Launchcode programs, visit <a href="https://www.launchcode.org/" class="link_footer" target="_blank">launchcode.org</a>.
                 </p>
             </section>
-            <section>
+            <section class="footer_logo">
                 <p>
                     <img src="img/NDB_logo.png" alt="LOGO_Niels Dhollander-Barclay" class="logo_footer">
                     &#169;2017 Niels Dhollander-Barclay
