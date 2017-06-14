@@ -60,7 +60,7 @@ img{
     border-radius: .3em;
     border-color: cornsilk;
     display: block;
-    margin: 0 auto;
+    margin: auto;
 }
 
 section{
@@ -99,23 +99,36 @@ a{
     
 }
 
+a:hover{
+    color: black;
+}
+
+a:visited{
+    color: brown;
+}
+
 /*====Classes====*/
 
 .nav_header{
     margin: 4em 0em 0em 4em;
 }
 
-.sec_sanse{
+.sec_plants{
     border-style: solid;
     border-width: .1em;
     border-radius: .3em;
     padding: 2em;
 }
 
+.link_list{
+    margin: 1em auto auto auto;
+    text-align: center;
+}
 
 .logo_footer{
-    height: 3em;
-    float: left;
+    height: 1em;
+    margin: auto;
+    float:left;
 }
 
 .img_leo{
@@ -127,13 +140,25 @@ a{
     width: 12em;
     height: 16em;
     float:right;
-    
 }
 
 .footer_bio{
-    width: 40em;
+    margin: auto 12em auto auto;
 }
 
 .footer_logo{
-    float: right;
+    float: none;
+}
+.footer_nav{
+    float: left;
+    margin-top: 0;
+}
+
+.nav_f_h{
+    margin-bottom: .5em;
+}
+
+.img_wide{
+    width: 35em;
+    height:auto;
 }
