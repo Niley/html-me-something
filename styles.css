@@ -100,14 +100,14 @@ a{
     
 }
 
-a:hover{
-    color: black;
-}
 
 a:visited{
     color: brown;
 }
 
+a:hover{
+    color: black;
+}
 /*====Classes====*/
 
 .nav_header{
