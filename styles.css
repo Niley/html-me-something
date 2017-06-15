@@ -54,7 +54,8 @@ body{
 }
 
 img{
-    height: 20em;
+    height: auto;
+    max-width: 100%;
     border-style: solid;
     border-width: .1em;
     border-radius: .3em;
@@ -127,38 +128,35 @@ a:visited{
 
 .logo_footer{
     height: 1em;
+    width: auto;
     margin: auto;
     float:left;
 }
 
 .img_leo{
     height: 5em;
+    width:auto;
     margin-bottom: 1em;
 }
 
 .img_footer{
     width: 12em;
     height: 16em;
-    float:right;
+    float:left;
 }
 
 .footer_bio{
-    margin: auto 12em auto auto;
+    margin: auto 10em auto 10em;
 }
 
 .footer_logo{
     float: none;
 }
 .footer_nav{
-    float: left;
-    margin-top: 0;
+    margin: auto;
+    text-align: center;
 }
 
 .nav_f_h{
     margin-bottom: .5em;
-}
-
-.img_wide{
-    width: 35em;
-    height:auto;
 }
